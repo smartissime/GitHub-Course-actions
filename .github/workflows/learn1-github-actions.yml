@@ -8,4 +8,4 @@ jobs:
        - name: print step
          run: |
            echo "hello "
-           echo "hello ${{ github.actor }"
+           echo "hello ${{ github.actor }}"
