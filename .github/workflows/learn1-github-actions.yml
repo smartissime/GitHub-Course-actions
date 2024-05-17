@@ -6,4 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
        - name: print step
-         run: echo "hello "
+         run: |
+           echo "hello "
+           echo "hello ${{ github.actor }"
